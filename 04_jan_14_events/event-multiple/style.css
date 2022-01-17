@@ -1,0 +1,7 @@
+body *{
+    border: solid 1px black;
+    margin: 1rem;
+}
+div{
+    background-color: blueviolet;
+}
