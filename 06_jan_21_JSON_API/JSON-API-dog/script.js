@@ -15,7 +15,7 @@ document.body.append(img);
 
 const multipleDogs = `{"message":["https:\/\/images.dog.ceo\/breeds\/bulldog-boston\/n02096585_4451.jpg","https:\/\/images.dog.ceo\/breeds\/dhole\/n02115913_4047.jpg","https:\/\/images.dog.ceo\/breeds\/terrier-kerryblue\/n02093859_2880.jpg"],"status":"success"}`;
 const multipleDogsObj = JSON.parse(multipleDogs);
-console.log(multipleDogsObj.message);
+console.log(multipleDogsObj.message); //Detta är nu en array som vi kan iterera igenom
 
 for(const url of multipleDogsObj.message){
     console.log(url);
